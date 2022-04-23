@@ -1,0 +1,9 @@
+THEMA
+
+-Film app
+-Zeigt die neuesten Filme von einigen genren
+-Zeigt Filme mit Bild und beschreibung
+-Gibt die Option ein Film zu Favorisieren
+-Möglichkeit weitergeleitet zu werden auf Streaming Plattform
+-Falls es nicht möglich wird Informationen von Filmen zu erhalten durch datenbanken,
+    wird ein solches Verhalten simuliert mit 20 Filmen.
