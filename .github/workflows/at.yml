@@ -1,0 +1,15 @@
+name: CI
+
+on: [ push ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: actions/setup-java@v2
+        with:
+          distribution: "adopt"
+          java-version: 16
+      -name: clean build
+      - run: ./gradlew clean test --info --stacktrace
