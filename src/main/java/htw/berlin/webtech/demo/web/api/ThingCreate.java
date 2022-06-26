@@ -11,6 +11,8 @@ public class ThingCreate {
         filmGenre = genre;
     }
 
+    public ThingCreate(){}
+
     public String getFilmName() {
         return filmName;
     }

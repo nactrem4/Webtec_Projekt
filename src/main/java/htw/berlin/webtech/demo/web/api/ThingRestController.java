@@ -1,14 +1,11 @@
 package htw.berlin.webtech.demo.web.api;
 
-import htw.berlin.webtech.demo.persistence.ThingEntity;
-import htw.berlin.webtech.demo.persistence.ThingsRepository;
 import htw.berlin.webtech.demo.service.ThingService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController
