@@ -15,7 +15,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
                     .allowedMethods("*")
                     .allowedOrigins(
                             "http://localhost:3000",
-                            "http://https://webtech-movie-frontend.herokuapp.com/"
+                            "https://webtech-movie-frontend.herokuapp.com/"
                     );
         }
     }
